@@ -1,0 +1,6 @@
+# dataset & artefak besar
+data/yolov8/
+data/cls/
+*.zip
+__pycache__/
+*.pth

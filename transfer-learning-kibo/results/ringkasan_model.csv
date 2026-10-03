@@ -1,0 +1,4 @@
+model,n_seed,acc_mean,acc_std,f1_mean,f1_std,test_loss_mean,test_loss_std,latency_ms,params_total_M,params_trained_M,train_time_s
+MobileNetV3-Large,3,99.8095,0.2694,99.8012,0.2812,0.0733,0.0256,11.2426,4.2148,3.4224,121.9815
+ResNet-18,3,100.0,0.0,100.0,0.0,0.0543,0.008,20.2639,11.1822,8.3994,163.4717
+ResNet-50,3,99.619,0.2694,99.5922,0.2901,0.044,0.0154,46.4964,23.5306,14.9873,429.8059

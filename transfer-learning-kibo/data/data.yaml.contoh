@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 12
+names: ['aexample', 'coin', 'compass', 'coral', 'crystal', 'diamond', 'emerald', 'fossil', 'key', 'letter', 'shell', 'treasure_box']
+
+roboflow:
+  workspace: brail-nyx-88
+  project: crop-aja
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/brail-nyx-88/crop-aja/dataset/10

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['ball']
+
+roboflow:
+  workspace: brail-nyx-88
+  project: ball-detection-gzsd2
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/brail-nyx-88/ball-detection-gzsd2/dataset/5

@@ -1,0 +1,1 @@
+Pembagian asli Roboflow dipertahankan. Tidak ada duplikat persis bukan bukti bebas frame video yang mirip. Untuk klaim generalisasi, pisahkan per video/sesi memakai --groups.

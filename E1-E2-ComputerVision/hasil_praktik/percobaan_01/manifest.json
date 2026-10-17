@@ -1,0 +1,194 @@
+{
+  "created_at": "2026-10-17T14:02:12+07:00",
+  "nim": "4222401050",
+  "nama": "Dedek Mulyadi",
+  "data_yaml": "C:\\Users\\Lenovo\\Downloads\\yolo_humanoid_e1_e3\\dataset_v1\\data.yaml",
+  "dataset_root": "C:\\Users\\Lenovo\\Downloads\\yolo_humanoid_e1_e3\\dataset_v1",
+  "dataset_sha256": "835a2a4bd6dac1d8f61580ec59212f0cb38b1cb4b0bf97f01e3b6a9d28ea6749",
+  "names": [
+    "ball"
+  ],
+  "dataset_audit": {
+    "created_at": "2026-10-17T13:56:52+07:00",
+    "source_zip": "C:\\Users\\Lenovo\\Downloads\\yolo_humanoid_e1_e3\\dataset_bola.zip",
+    "source_zip_sha256": "a951796eae7a1178c50c9ff8971cc85b03a0cca6b3345505bb8732bacdf2e6b1",
+    "names": [
+      "ball"
+    ],
+    "counts": {
+      "train": {
+        "images": 924,
+        "labels": 924,
+        "objects": 916,
+        "empty_labels": 8
+      },
+      "val": {
+        "images": 264,
+        "labels": 264,
+        "objects": 258,
+        "empty_labels": 6
+      },
+      "test": {
+        "images": 132,
+        "labels": 132,
+        "objects": 132,
+        "empty_labels": 0
+      }
+    },
+    "dimensions": {
+      "1280x720": 1320
+    },
+    "split_method": "existing_roboflow_split",
+    "duplicate_exact_groups": 0,
+    "cross_split_pixel_duplicates": [],
+    "errors": [],
+    "warnings": [
+      "Pembagian asli Roboflow dipertahankan. Tidak ada duplikat persis bukan bukti bebas frame video yang mirip. Untuk klaim generalisasi, pisahkan per video/sesi memakai --groups."
+    ],
+    "min_object_side_pixels": 11.899999999999999,
+    "dataset_sha256": "835a2a4bd6dac1d8f61580ec59212f0cb38b1cb4b0bf97f01e3b6a9d28ea6749"
+  },
+  "environment": {
+    "device": 0,
+    "gpu": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+    "vram_gb": 6.0,
+    "torch": "2.9.1+cu128",
+    "cuda_runtime": "12.8",
+    "python": "3.11.9",
+    "os": "Windows-10-10.0.26200-SP0",
+    "ultralytics": "8.4.178"
+  },
+  "initial_weights": "C:\\Users\\Lenovo\\Downloads\\yolo_humanoid_e1_e3\\yolo26n.pt",
+  "initial_weights_sha256": "9b09cc8bf347f0fc8a5f7657480587f25db09b34bf33b0652110fb03a8ad4fef",
+  "config": {
+    "epochs": 30,
+    "batch": 8,
+    "device": 0,
+    "workers": 0,
+    "seed": 42,
+    "optimizer": "AdamW",
+    "lr0": 0.001,
+    "amp": true
+  },
+  "experiments": {
+    "E1_pretrained": {
+      "imgsz": 416,
+      "elapsed_train_seconds": 907.7628811000031,
+      "status": "completed",
+      "actual_batch": 8,
+      "training_complete": true,
+      "val": {
+        "mAP50": 0.992011707389736,
+        "mAP50_95": 0.7092934790495427,
+        "precision": 0.9822443962263656,
+        "recall": 0.9883720930232558,
+        "val_batch_inference_ms": 4.1859450755124055,
+        "class_mAP50_95": {
+          "ball": 0.7092934790495427
+        }
+      },
+      "benchmark": {
+        "mean_ms": 13.875574999474338,
+        "median_ms": 13.393349989200942,
+        "p95_ms": 18.513920019904614,
+        "detector_fps": 72.06908542801895,
+        "images": 24,
+        "passes": 2,
+        "warmup": 3,
+        "batch": 1,
+        "precision": "FP32",
+        "scope": "Preloaded BGR image -> prediction; includes Python/preprocess/inference/postprocess, excludes file IO, camera, ROS and display.",
+        "filenames": [
+          "bola_1107_jpg.rf.4458cf6d4ba9cc203426eb15e5e16638.jpg",
+          "bola_1084_jpg.rf.1c85d049bf4d0d6cb6ce9695f08a073c.jpg",
+          "bola_38_jpg.rf.98c97dcd114a4f267c89e44469128e94.jpg",
+          "bola_319_jpg.rf.8cca82b5bed48643785024a5a680d018.jpg",
+          "bola_281_jpg.rf.308ae368a753ec466391ebb8cb0b193a.jpg",
+          "bola_1159_jpg.rf.26538de944a9940f2c12e51a3f9b08d6.jpg",
+          "bola_11-74-_jpg.rf.70000eb90cfc38dc189c904593bb49c8.jpg",
+          "bola_11-25-_jpg.rf.9af70766000345b6b807be24c8850bb1.jpg",
+          "bola_804_jpg.rf.474f0951157d726de7935a14534698e4.jpg",
+          "bola_1064_jpg.rf.9323f00a052fb91b7fd592c9dad67245.jpg",
+          "bola_1059_jpg.rf.e6cc9a4852772b35b07800a5309c1a62.jpg",
+          "bola_11-138-_jpg.rf.a275b6d664fd828631bb3bf3e388ea2d.jpg",
+          "bola_11-98-_jpg.rf.9258eedb7228f0d3e59c6752266ba475.jpg",
+          "bola_1111_jpg.rf.d08c9a824af36eb9763a79dd3bcd7d37.jpg",
+          "bola_344_jpg.rf.b52efee91d4eb10cf2e54654c052226e.jpg",
+          "bola_464_jpg.rf.053171f3adb3d1aaf141d0fe85447094.jpg",
+          "bola_1044_jpg.rf.eca230de2bfa3f4e4fb1bc947a5fd259.jpg",
+          "bola_404_jpg.rf.a10eb69545848855cdb4bfa15ae073e2.jpg",
+          "bola_11-61-_jpg.rf.cb6616efb940f0265018ef08b8abe624.jpg",
+          "bola_616_jpg.rf.c6f9e842e48ce45faccb28e726613f21.jpg",
+          "bola_547_jpg.rf.0d58ec3fae63e35d30bde82bc72c5200.jpg",
+          "bola_600_jpg.rf.bacb6f5080ce36b18810fc54b01cd85c.jpg",
+          "bola_371_jpg.rf.e873d994c88feba05e7f50a8597f16ad.jpg",
+          "bola_22_jpg.rf.2a26fbd6d2c6236028140dfd6123f176.jpg"
+        ]
+      },
+      "best_pt": "C:\\Users\\Lenovo\\Downloads\\yolo_humanoid_e1_e3\\hasil_praktik\\percobaan_01\\E1_pretrained\\weights\\best.pt",
+      "best_sha256": "25c2c91dd12cfdcb3a5c3b09ba342aba52d214247d4b905006c784eeb0bdd156",
+      "finished_at": "2026-10-17T14:17:28+07:00"
+    },
+    "E3_tuning": {
+      "imgsz": 640,
+      "elapsed_train_seconds": 1027.7493543000019,
+      "status": "completed",
+      "actual_batch": 8,
+      "training_complete": true,
+      "val": {
+        "mAP50": 0.992699189891311,
+        "mAP50_95": 0.7246252555637588,
+        "precision": 0.9799420020312146,
+        "recall": 0.9961240310077519,
+        "val_batch_inference_ms": 3.9503295455219676,
+        "class_mAP50_95": {
+          "ball": 0.7246252555637588
+        }
+      },
+      "benchmark": {
+        "mean_ms": 12.891974999244363,
+        "median_ms": 12.62549999228213,
+        "p95_ms": 15.864540002075955,
+        "detector_fps": 77.56763413352981,
+        "images": 24,
+        "passes": 2,
+        "warmup": 3,
+        "batch": 1,
+        "precision": "FP32",
+        "scope": "Preloaded BGR image -> prediction; includes Python/preprocess/inference/postprocess, excludes file IO, camera, ROS and display.",
+        "filenames": [
+          "bola_1107_jpg.rf.4458cf6d4ba9cc203426eb15e5e16638.jpg",
+          "bola_1084_jpg.rf.1c85d049bf4d0d6cb6ce9695f08a073c.jpg",
+          "bola_38_jpg.rf.98c97dcd114a4f267c89e44469128e94.jpg",
+          "bola_319_jpg.rf.8cca82b5bed48643785024a5a680d018.jpg",
+          "bola_281_jpg.rf.308ae368a753ec466391ebb8cb0b193a.jpg",
+          "bola_1159_jpg.rf.26538de944a9940f2c12e51a3f9b08d6.jpg",
+          "bola_11-74-_jpg.rf.70000eb90cfc38dc189c904593bb49c8.jpg",
+          "bola_11-25-_jpg.rf.9af70766000345b6b807be24c8850bb1.jpg",
+          "bola_804_jpg.rf.474f0951157d726de7935a14534698e4.jpg",
+          "bola_1064_jpg.rf.9323f00a052fb91b7fd592c9dad67245.jpg",
+          "bola_1059_jpg.rf.e6cc9a4852772b35b07800a5309c1a62.jpg",
+          "bola_11-138-_jpg.rf.a275b6d664fd828631bb3bf3e388ea2d.jpg",
+          "bola_11-98-_jpg.rf.9258eedb7228f0d3e59c6752266ba475.jpg",
+          "bola_1111_jpg.rf.d08c9a824af36eb9763a79dd3bcd7d37.jpg",
+          "bola_344_jpg.rf.b52efee91d4eb10cf2e54654c052226e.jpg",
+          "bola_464_jpg.rf.053171f3adb3d1aaf141d0fe85447094.jpg",
+          "bola_1044_jpg.rf.eca230de2bfa3f4e4fb1bc947a5fd259.jpg",
+          "bola_404_jpg.rf.a10eb69545848855cdb4bfa15ae073e2.jpg",
+          "bola_11-61-_jpg.rf.cb6616efb940f0265018ef08b8abe624.jpg",
+          "bola_616_jpg.rf.c6f9e842e48ce45faccb28e726613f21.jpg",
+          "bola_547_jpg.rf.0d58ec3fae63e35d30bde82bc72c5200.jpg",
+          "bola_600_jpg.rf.bacb6f5080ce36b18810fc54b01cd85c.jpg",
+          "bola_371_jpg.rf.e873d994c88feba05e7f50a8597f16ad.jpg",
+          "bola_22_jpg.rf.2a26fbd6d2c6236028140dfd6123f176.jpg"
+        ]
+      },
+      "best_pt": "C:\\Users\\Lenovo\\Downloads\\yolo_humanoid_e1_e3\\hasil_praktik\\percobaan_01\\E3_tuning\\weights\\best.pt",
+      "best_sha256": "10e1965594f04dfad5dede8a784f4bcb311ae2f5fc382b3dfb78c3aeb5fd2029",
+      "finished_at": "2026-10-17T14:34:42+07:00"
+    }
+  },
+  "selection_rule": "highest validation mAP50-95; E1 wins ties",
+  "selected": "E3_tuning",
+  "training_finished_at": "2026-10-17T14:34:43+07:00"
+}

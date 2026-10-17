@@ -1,0 +1,6 @@
+path: C:/Users/Lenovo/Downloads/yolo_humanoid_e1_e3/dataset_v1
+train: images/train
+val: images/val
+test: images/test
+names:
+- ball

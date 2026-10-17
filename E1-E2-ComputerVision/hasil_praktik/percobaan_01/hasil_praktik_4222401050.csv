@@ -1,0 +1,3 @@
+﻿eksperimen,imgsz,batch,mAP50_val,mAP50_95_val,precision_val,recall_val,waktu_train_menit,detector_batch1_mean_ms,detector_batch1_p95_ms,detector_batch1_fps,bobot
+E1_pretrained,416,8,0.992011707389736,0.7092934790495427,0.9822443962263656,0.9883720930232558,15.129,13.875574999474338,18.513920019904614,72.06908542801895,C:\Users\Lenovo\Downloads\yolo_humanoid_e1_e3\hasil_praktik\percobaan_01\E1_pretrained\weights\best.pt
+E3_tuning,640,8,0.992699189891311,0.7246252555637588,0.9799420020312146,0.9961240310077519,17.129,12.891974999244363,15.864540002075955,77.56763413352981,C:\Users\Lenovo\Downloads\yolo_humanoid_e1_e3\hasil_praktik\percobaan_01\E3_tuning\weights\best.pt

@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-10-17T01:52:36-03:00",
+  "source_zip": "ball detection.v5i.yolov8.zip",
+  "source_zip_sha256": "9316a3b89fa93091a70b6931fa53e15037fc1c8da2970edef9cd4321275a0ef1",
+  "names": [
+    "ball"
+  ],
+  "counts": {
+    "train": {
+      "images": 924,
+      "labels": 924,
+      "objects": 916,
+      "empty_labels": 8
+    },
+    "val": {
+      "images": 264,
+      "labels": 264,
+      "objects": 258,
+      "empty_labels": 6
+    },
+    "test": {
+      "images": 132,
+      "labels": 132,
+      "objects": 132,
+      "empty_labels": 0
+    }
+  },
+  "dimensions": {
+    "1280x720": 1320
+  },
+  "split_method": "existing_roboflow_split",
+  "duplicate_exact_groups": 0,
+  "cross_split_pixel_duplicates": [],
+  "errors": [],
+  "warnings": [
+    "Pembagian asli Roboflow dipertahankan. Tidak ada duplikat persis bukan bukti bebas frame video yang mirip. Untuk klaim generalisasi, pisahkan per video/sesi memakai --groups."
+  ],
+  "min_object_side_pixels": 11.899999999999999,
+  "dataset_sha256": "8ef20b1b4d918b739a9461c77017c1177f4bf3e3e0b92b1ac13e7b2ace8264d9"
+}

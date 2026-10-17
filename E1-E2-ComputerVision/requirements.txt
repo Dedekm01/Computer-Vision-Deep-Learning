@@ -1,0 +1,6 @@
+# Install CUDA-enabled torch/torchvision FIRST, following README.md.
+ultralytics>=8.4.0,<9.0
+PyYAML>=6.0
+Pillow>=10.0
+matplotlib>=3.8
+numpy>=1.26

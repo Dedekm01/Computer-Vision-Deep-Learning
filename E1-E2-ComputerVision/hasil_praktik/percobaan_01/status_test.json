@@ -1,0 +1,12 @@
+{
+  "attempts": [
+    {
+      "started_at": "2026-10-17T14:37:34+07:00",
+      "status": "completed",
+      "finished_at": "2026-10-17T14:37:41+07:00"
+    }
+  ],
+  "selected": "E3_tuning",
+  "weight_sha256": "10e1965594f04dfad5dede8a784f4bcb311ae2f5fc382b3dfb78c3aeb5fd2029",
+  "dataset_sha256": "835a2a4bd6dac1d8f61580ec59212f0cb38b1cb4b0bf97f01e3b6a9d28ea6749"
+}
